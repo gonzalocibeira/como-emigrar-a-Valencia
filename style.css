@@ -302,8 +302,13 @@ table, tr, th, td{
     .places__cards div{
         margin: 10px;
         width: 30vw;
+        transition: all 1s;
     }
 
+    .places__cards div:hover{
+        transform:scale(1.03);
+        background: linear-gradient(180deg, rgba(0,0,0,0.09) 0%, rgba(255,255,255,1) 100%);
+    }
 
     /* Links y contacto */
     .links_interes a{
