@@ -71,6 +71,11 @@ nav{
     padding-right: 1px;
     border-left: 2px solid;
     border-right: 2px solid;
+    transition: all 1s;
+}
+
+.menu__list a:hover{
+    transform: scale(1.1)
 }
 
 /*Main*/
