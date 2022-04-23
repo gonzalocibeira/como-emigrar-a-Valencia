@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emigrar a Valencia</title>
     <link rel="icon" type="image/x-icon" href="./images/valencia.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,65 +17,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!-- Fonts -->
 </head>
-<body>
-    <header class="menu__titleAndImage">
-        <a href="#">
-            <h1 class="menu__title">Como emigrar a Valencia</h1>
-        </a>
-        <img src="./images/valencia.png" alt="logo de Valencia">
-    </header>
-    <nav class="menu">
-        <ul class="menu__list">
-            <li>
-                <a href="#"> Home </a>
-            </li>
-            <li>
-                <a class="mobile" href="./pages/documentacion.html"> Documentos </a>
-                <a class="desk" href="./pages/documentacion.html"> Documentos necesarios </a>
-            </li>
-            <li>
-                <a class="mobile" href="./pages/costo_de_vida.html"> Costo </a>
-                <a class="desk" href="./pages/costo_de_vida.html"> Costo de vida </a>
-            </li>
-            <li>
-                <a class="mobile" href="./pages/que_hacer.html"> Lugares </a>
-                <a class="desk" href="./pages/que_hacer.html"> Qué hacer en Valencia? </a>
-            </li>
-            <li>
-                <a class="mobile" href="./pages/links_y_contacto.html"> Links </a>
-                <a class="desk" href="./pages/links_y_contacto.html"> Links utiles y contacto </a>
-            </li>
-        </ul>
+<body class="d-flex flex-column min-vh-100 bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light nav__valencia">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                Como emigrar a Valencia
+                <img src="./images/valencia.png" alt="logo de Valencia" width="40rem" class="d-inline-block align-text-middle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/documentacion.html">Documentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/costo_de_vida.html">Costo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/que_hacer.html">Lugares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/links_y_contacto.html">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <main>
-        <div class="index_video">
-            <video muted autoplay loop preload="auto">
-                <!-- Multiple video formats for browser compatibility -->
+        <div class="bg-dark d-flex  index_video">
+            <video class="container-lg" muted autoplay loop preload="auto">
                 <source src="./videos/video_manija_valencia.mp4" type="video/mp4">
                 <source src="./videos/video_manija_valencia.webm" type="video/webm">
                 <p>Tu navegador no puede reproducir éste video</p>
             </video>
         </div>
-        <h2>Placeholder: Este sitio va a mostrar info sobre como emigrar de Argentina a España, más concretamente Valencia.</h2>
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="mt-3">
+                Algun titulo copado
+            </h2>
+            <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatem sint reiciendis doloribus necessitatibus facilis numquam alias! Illo sed voluptatem rerum ad. Quae tempora sit natus aperiam, accusamus dolor aliquam?
+            Distinctio odio dolores corporis facere unde blanditiis magni? Veritatis cumque similique dignissimos quae illo repudiandae quasi earum aspernatur eos iure aliquid, distinctio corrupti saepe sequi nisi nobis repellendus aliquam. Libero.
+            Dolorem eaque repellendus porro sint quis cupiditate ad voluptates impedit quisquam assumenda quos nulla sunt culpa quam hic molestias ab aliquam repellat doloremque quibusdam fugiat quia, laudantium perferendis eos. Itaque.
+            Totam nemo voluptatibus sequi itaque incidunt iure illum optio, rerum magnam. Qui autem illo nisi consectetur repellat porro tenetur sed impedit distinctio repellendus labore, molestiae voluptatibus unde? Dicta, nostrum cumque.
+            Et consectetur, doloremque laboriosam eaque quod tenetur dolorum facere quidem iure maiores rem expedita, minus ducimus incidunt nemo? Tenetur, amet aliquid. Sint aliquid enim delectus modi reprehenderit inventore tempora nobis!
+            Eum asperiores dolore repellat quasi molestias exercitationem ipsam, accusamus neque quibusdam numquam, explicabo illo necessitatibus reiciendis minima consequatur quaerat molestiae dolorem dignissimos dolor. Magni ut pariatur a alias expedita corporis!
+            Ab, deserunt? In expedita iusto vero minima, aperiam sequi cupiditate debitis eveniet delectus animi neque dolorum tempore labore repellat libero dolores pariatur accusantium nobis cumque id? Quae eum iste dolorum!
+            Corporis commodi maiores nisi totam reiciendis adipisci nesciunt provident recusandae non ea eveniet velit obcaecati quia mollitia, tempora blanditiis vitae quisquam? Accusantium asperiores obcaecati excepturi saepe, explicabo nam sed ullam?
+            Voluptate, assumenda rem doloremque recusandae similique porro animi doloribus obcaecati vel? Ea vero doloribus et perferendis, debitis reprehenderit beatae consequuntur voluptatem voluptates, amet unde minus quisquam. Odit ipsa eum sunt.
+            Facere nam id reprehenderit qui, iure, dolorum error omnis quisquam harum praesentium dolorem fuga cum quis tempore est! Aliquid quod aliquam quaerat cum neque vel laborum sint officiis numquam ab.
+            </p>
+        </div>
     </main>
-    <footer>
-        <ul class="footer__list">
-            <li>
-                <span>Nuestras redes</span>
-            </li>
-            <li>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-2 border-top bg-secondary mt-auto">
+        <div class="ps-3 col-md-10 d-flex align-items-center justify-content-between">
+            <span class="text-white">
+                © 2022, Gonzalo Cibeira.
+            </span>
+            <span class="text-white" id="ns__redes__foot">
+                Nuestras redes
+            </span>
+        </div>
+        <ul class="nav col-md-2 justify-content-center list-unstyled d-flex">
+            <li class="ms-3">
                 <a href="https://www.instagram.com/turco.cibeira/" target="_blank">
-                    <img src="./images/instagram.png" alt="logo Instagram" class="footer__logo" >
+                    <img src="./images/instagram.png" alt="instagram logo" width="40rem">
                 </a>
             </li>
-            <li>
+            <li class="ms-3">
                 <a href="https://goo.gl/maps/YFcrtHqYCpQ4a7xo9" target="_blank">
-                    <img src="./images/local_guides.png" alt="logo local guides" class="footer__logo" >
+                    <img src="./images/local_guides.png" alt="local guides logo" width="40rem">
                 </a>
             </li>
         </ul>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
