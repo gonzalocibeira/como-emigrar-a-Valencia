@@ -38,6 +38,11 @@
     transform: scale(1.05);
 }
 
+#form_cont{
+    width: 25vw;
+    margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 576px){
     #logo_valencia{
         width:1.75rem;
@@ -49,9 +54,7 @@
 
     .nav-item{
         font-size: 1rem;
-        
     }
-
 }
 
 /* Delete nav item animation on hamburger menu */

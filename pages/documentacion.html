@@ -21,7 +21,7 @@
 <body class="d-flex flex-column min-vh-100 bg-light">
     <nav class="navbar navbar-expand-lg navbar-light nav__valencia">
         <div class="container-fluid">
-            <a class="navbar-brand text-white text_nav" href="/">
+            <a class="navbar-brand text-white text_nav" href="../index.html">
                 Como emigrar a Valencia
                 <img src="../images/valencia.png" alt="logo de Valencia" width="40rem" class="d-inline-block align-text-middle" id="logo_valencia">
             </a>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/">Home</a>
+                        <a class="nav-link text-white" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white active" aria-current="page" href="#">Documentos</a>
@@ -62,7 +62,7 @@
             Nam, sunt. Mollitia reiciendis sunt eum. Laboriosam quasi tempora reiciendis expedita similique, accusantium velit, saepe quia numquam, laborum quod. Aut ratione fugiat quia labore assumenda itaque maiores esse hic velit?
             </p>
         </div>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordionDocu">
             <!--Item 1-->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -70,10 +70,10 @@
                     Documentos necesarios para ciudadanos Españoles
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionDocu">
                 <div class="accordion-body">
                     <ul>
-                        <li>Pasaporte en vigor</li>
+                        <li>Pasaporte Español en vigor</li>
                         <li>...</li>
                         <li>...</li>
                         <li>...</li>
@@ -92,7 +92,7 @@
                     Documentos necesarios para ciudadanos comunitarios (con pasaporte Europeo)
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionDocu">
                 <div class="accordion-body">
                     <ul>
                         <li>Pasaporte en vigor</li>
@@ -114,22 +114,65 @@
                     Documentos necesarios para ciudadanos no comunitarios (sin pasaporte Europeo)
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionDocu">
                 <div class="accordion-body">
-                    <ul>
-                        <li>Pasaporte en vigor</li>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
+                    <!-- Sub-acordeon 3.x -->
+                    <div class="accordion" id="accordionNoComun">
+                        <!--Item 3.1-->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThreeOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeOne" aria-expanded="false" aria-controls="collapseThreeOne">
+                                Visado de Residencia por Inversión de Capital
+                            </button>
+                          </h2>
+                          <div id="collapseThreeOne" class="accordion-collapse collapse" aria-labelledby="headingThreeOne" data-bs-parent="#accordionNoComun">
+                            <div class="accordion-body">
+                                <p>
+                                    Se entenderá como inversión significativa de capital, una inversión inicial por un valor igual o superior a DOS millones de euros en títulos de deuda pública española, o por un valor igual o superior a UN millón de euros en acciones o participaciones sociales de empresas españolas, o depósitos bancarios en entidades financieras españolas. 
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!--Item 3.2-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThreeTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeTwo" aria-expanded="false" aria-controls="collapseThreeTwo">
+                                    Visado de Residencia por Adquisición de Bienes Inmuebles
+                                </button>
+                            </h2>
+                            <div id="collapseThreeTwo" class="accordion-collapse collapse" aria-labelledby="headingThreeTwo" data-bs-parent="#accordionNoComun">
+                                <div class="accordion-body">
+                                    <p>
+                                        Podrán tramitar este visado los extranjeros que acrediten la adquisición de bienes inmuebles en España con una inversión de valor igual o superior a 500.000 euros por cada solicitante.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Item 3.3-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThreeThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeThree" aria-expanded="false" aria-controls="collapseThreeThree">
+                                    Visado de Residencia No Lucrativa
+                                </button>
+                            </h2>
+                            <div id="collapseThreeThree" class="accordion-collapse collapse" aria-labelledby="headingThreeThree" data-bs-parent="#accordionNoComun">
+                                <div class="accordion-body">
+                                    <p>
+                                        <strong>Dos posibilidades para probar que se cuenta con medios suficientes:</strong>
+                                        <br></br>
+                                        Mediante documentos que acrediten que se recibe una cantidad fija mensual de forma permanente, o de por vida, que puede provenir, por ejemplo, de un fondo de pensiones (el percibir un salario mensual no se consideraría válido, ya que no se considera permanente).
+                                        Otra vía sería el demostrar a través de un saldo medio bancario, que se ha mantenido un mínimo saldo en la cuenta durante el último año. Este saldo medio tiene que incluir el nombre del cliente y el número de cuenta.
+                                        Otros documentos necesarios para este tipo de permiso son los antecedentes penales y el certificado médico de la persona que presenta la solicitud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sub acordeon 3.x END -->
                 </div>
               </div>
             </div>
-          </div>
+        </div>
     </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-2 border-top bg-secondary mt-auto">
         <div class="ps-3 col-md-10 d-flex align-items-center justify-content-between">
