@@ -52,7 +52,11 @@
         
     }
 
-    .card:hover{
-        transform:none;
+}
+
+/* Delete nav item animation on hamburger menu */
+@media only screen and (max-width: 992px){
+    .nav-item:hover{
+        transform: none;
     }
 }
