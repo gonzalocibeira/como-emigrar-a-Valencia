@@ -57,9 +57,18 @@
     }
 }
 
-/* Delete nav item animation on hamburger menu */
+/* hamb. menu shows at this res. */
 @media only screen and (max-width: 992px){
     .nav-item:hover{
         transform: none;
     }
+
+    #form_cont{
+        width: 75vw;
+    }
+
+    .list-group{
+        width: 75vw !important;
+    }
+
 }
