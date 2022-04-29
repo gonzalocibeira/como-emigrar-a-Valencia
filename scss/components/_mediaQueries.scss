@@ -1,0 +1,29 @@
+@media only screen and (max-width: 576px){
+    #logo_valencia{
+        width:1.75rem;
+    }
+
+    .text_nav{
+        font-size: 1rem !important;
+    }
+
+    .nav-item{
+        font-size: 1rem;
+    }
+}
+
+/* hamb. menu shows at this res. */
+@media only screen and (max-width: 992px){
+    .nav-item:hover{
+        transform: none;
+    }
+
+    #form_cont{
+        width: 75vw;
+    }
+
+    .list-group{
+        width: 75vw !important;
+    }
+
+}

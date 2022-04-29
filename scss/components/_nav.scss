@@ -1,0 +1,18 @@
+.nav__valencia{
+    background-color: $color_ppal;
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-weight:bold;
+    font-size: 2rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    transition: all 1s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
