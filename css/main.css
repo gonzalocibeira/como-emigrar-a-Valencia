@@ -55,10 +55,16 @@
 .error_404 {
   background-color: #ff6000; }
   .error_404 h1 {
-    color: white;
+    color: #f8f8f8;
     font-size: 3rem; }
-  .error_404 p {
-    color: white;
-    font-size: 2rem; }
   .error_404 img {
     width: 10rem; }
+
+.esParaUsarElExtend, .return_link {
+  color: #f8f8f8;
+  font-size: 2rem; }
+
+.return_link {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 2rem; }

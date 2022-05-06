@@ -1,1 +1,15 @@
-$color-ppal: rgb(255,96,0);
+$color-pallete: (
+    orange_val: rgb(255,96,0),
+    white_letter: rgb(248, 248, 248)
+);
+
+@mixin cursive_text{
+    font-family: 'Caveat', cursive;
+    font-weight:bold;
+    font-size: 2rem;
+};
+
+@mixin notfound_text{
+    color: map-get($color_pallete, white_letter);
+    font-size: 2rem;
+}

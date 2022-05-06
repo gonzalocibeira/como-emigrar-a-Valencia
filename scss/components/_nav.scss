@@ -1,11 +1,9 @@
 .nav__valencia{
-    background-color: $color_ppal;
+    background-color: map-get($color_pallete, orange_val);
 }
 
 .navbar-brand{
-    font-family: 'Caveat', cursive;
-    font-weight:bold;
-    font-size: 2rem;
+    @include cursive_text;
 }
 
 #logo_valencia{

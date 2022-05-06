@@ -1,14 +1,19 @@
 .error_404{
-    background-color: $color_ppal;
+    background-color: map-get($color_pallete, orange_val);
     & h1{
-        color: white;
+        color: map-get($color_pallete, white_letter);
         font-size: 3rem;
-    }
-    & p{
-        color: white;
-        font-size: 2rem;
     }
     & img{
         width: 10rem;
     }
+}
+
+.esParaUsarElExtend{
+    @include notfound_text
+}
+
+.return_link{
+    @extend .esParaUsarElExtend;
+    @include cursive_text;
 }
