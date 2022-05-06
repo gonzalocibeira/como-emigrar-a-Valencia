@@ -1,0 +1,14 @@
+.error_404{
+    background-color: $color_ppal;
+    & h1{
+        color: white;
+        font-size: 3rem;
+    }
+    & p{
+        color: white;
+        font-size: 2rem;
+    }
+    & img{
+        width: 10rem;
+    }
+}

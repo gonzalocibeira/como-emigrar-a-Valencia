@@ -48,3 +48,14 @@
     width: 75vw; }
   .list-group {
     width: 75vw !important; } }
+
+.error_404 {
+  background-color: #ff6000; }
+  .error_404 h1 {
+    color: white;
+    font-size: 3rem; }
+  .error_404 p {
+    color: white;
+    font-size: 2rem; }
+  .error_404 img {
+    width: 10rem; }
