@@ -53,9 +53,9 @@
     </nav>
     <main>
         <div class="d-flex flex-column align-items-start">
-            <h2 class="mt-3 mx-3 mx-sm-5">
+            <h1 class="mt-3 mx-3 mx-sm-5">
                 Links de interés
-            </h2>
+            </h1>
             <p class="mx-3 mx-sm-5">A continuación podrás encontrar link de inetrés para aprender más sobre la ciudad de Valencia y los trámites necesarios para establecer tu residencia aquí.
             </p>
         </div>
@@ -76,27 +76,31 @@
                 &#9989 &nbsp Sitio de Turismo España
             </a>
         </div>
-        <div class="container-fluid mx-3 mx-sm-5 border-top border-3">
-            <h1 class="mt-5">
-                Tienes alguna consulta?
-            </h1>
-            <form class="d-flex flex-column" id="form_cont">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" placeholder="Nombre y Apellido"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="ejemplo@123.com"><br>
-                <label for="type">Tipo de consulta:</label>
-                <select name="type" id="type">
-                    <option value="documentos">Documentos</option>
-                    <option value="tramites">Tramites</option>
-                    <option value="ciudad">La ciudad</option>
-                    <option value="otro">Otro</option>
-                </select><br>
-                <label for="news">Deseas recibir el newsletter?</label>
-                <input type="checkbox" id="news"><br>
-                <textarea name="comments" cols="30" rows="10" placeholder="Tu consulta"></textarea><br>
-                <input type="reset">
-                <input type="submit">
+        <div class="display-flex mx-3 mx-sm-5 border-top border-3 rounded-3">
+            <h3 class="mt-5">
+                Tenes alguna consulta?
+            </h3>
+            <form class="d-flex flex-column flex-md-row" id="form_cont">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Nombre y Apellido"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="ejemplo@123.com"><br>
+                    <label for="type">Tipo de consulta:</label>
+                    <select name="type" id="type">
+                        <option value="documentos">Documentos</option>
+                        <option value="tramites">Tramites</option>
+                        <option value="ciudad">La ciudad</option>
+                        <option value="otro">Otro</option>
+                    </select><br>
+                </div>
+                <div class="ms-md-3">
+                    <label for="news">Queres recibir el newsletter?</label>
+                    <input type="checkbox" id="news"><br>
+                    <textarea name="comments" cols="30" rows="10" placeholder="Tu consulta"></textarea><br>
+                    <input type="reset">
+                    <input type="submit">
+                </div>
             </form>
         </div>
     </main>
