@@ -26,6 +26,9 @@
 #ns__redes__foot {
   font-size: 1.25rem; }
 
+.index__image {
+  width: 45%; }
+
 .card {
   transition: all 1s; }
   .card:hover {
@@ -41,7 +44,9 @@
   .text_nav {
     font-size: 1rem !important; }
   .nav-item {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .index__image {
+    width: 100%; } }
 
 /* hamb. menu shows at this res. */
 @media only screen and (max-width: 992px) {
@@ -51,6 +56,10 @@
     width: 75vw; }
   .list-group {
     width: 75vw !important; } }
+
+@media only screen and (min-width: 993px) {
+  .p__index {
+    font-size: 1.5rem; } }
 
 .error_404 {
   background-color: #ff6000; }

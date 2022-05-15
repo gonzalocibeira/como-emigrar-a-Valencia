@@ -10,6 +10,10 @@
     .nav-item{
         font-size: 1rem;
     }
+
+    .index__image{
+        width: 100%;
+    }
 }
 
 /* hamb. menu shows at this res. */
@@ -24,6 +28,14 @@
 
     .list-group{
         width: 75vw !important;
+    }
+
+    
+}
+
+@media only screen and (min-width: 993px){
+    .p__index{
+        font-size: 1.5rem;
     }
 
 }
