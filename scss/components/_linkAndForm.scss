@@ -1,0 +1,13 @@
+.link__interest{
+    background-color: map-get($map: $color_pallete, $key: bg_lg_grey);
+
+    &:hover{
+        background-color: map-get($map: $color_pallete, $key: orange_val);
+        color: white;
+    }
+}
+
+#form_cont{
+    width: 25vw;
+    margin-bottom: 2rem;
+}

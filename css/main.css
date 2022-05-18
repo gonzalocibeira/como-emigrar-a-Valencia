@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0; }
 
+.accordion-button:not(.collapsed) {
+  background-color: #ff6000;
+  color: white; }
+
 .nav__valencia {
   background-color: #ff6000; }
 
@@ -29,14 +33,45 @@
 .index__image {
   width: 45%; }
 
+.card__index {
+  transition: all 1s ease-out; }
+  .card__index:hover {
+    transform: scale(1.01); }
+
 .card {
   transition: all 1s; }
   .card:hover {
     transform: scale(1.05); }
 
+.link__interest {
+  background-color: #f8f9fa; }
+  .link__interest:hover {
+    background-color: #ff6000;
+    color: white; }
+
 #form_cont {
   width: 25vw;
   margin-bottom: 2rem; }
+
+.error_404 {
+  background-color: #ff6000; }
+  .error_404 h1 {
+    color: #f8f8f8;
+    font-size: 3rem; }
+  .error_404 img {
+    width: 10rem; }
+
+.esParaUsarElExtend, .return_link {
+  color: #f8f8f8;
+  font-size: 2rem; }
+
+.return_link {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 2rem; }
+
+.cost__image {
+  width: 50%; }
 
 @media only screen and (max-width: 576px) {
   #logo_valencia {
@@ -55,25 +90,10 @@
   #form_cont {
     width: 75vw; }
   .list-group {
-    width: 75vw !important; } }
+    width: 75vw !important; }
+  .cost__image {
+    width: 75%; } }
 
 @media only screen and (min-width: 993px) {
   .p__index {
     font-size: 1.5rem; } }
-
-.error_404 {
-  background-color: #ff6000; }
-  .error_404 h1 {
-    color: #f8f8f8;
-    font-size: 3rem; }
-  .error_404 img {
-    width: 10rem; }
-
-.esParaUsarElExtend, .return_link {
-  color: #f8f8f8;
-  font-size: 2rem; }
-
-.return_link {
-  font-family: 'Caveat', cursive;
-  font-weight: bold;
-  font-size: 2rem; }
